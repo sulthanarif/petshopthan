@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="asset/pet.png" type="image/x-icon">
+    <title>Petshopthan</title>
+
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <h1>
+            Petshopthan
+        </h1>
+        <!-- nav -->
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-bar">Home</a></li>
+                <li><a href="#" class="nav-bar">service</a></li>
+                <li><a href="#" class="nav-bar">Price</a></li>
+                <li><a href="#" class="nav-bar">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main  -->
+    <main>
+        <!-- section landing/slider -->
+        <section>
+            <div class="banner">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <img src="asset/photo-1442291928580-fb5d0856a8f1.jpg">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="asset/photo-1494947665470-20322015e3a8.jpg">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <img src="asset/photo-1548199973-03cce0bbc87b.jpg">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+
+                <div class="dot-position">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+        </section>
+        <!-- service card -->
+        <section class="service" id="service">
+            <h2 class="section-title">
+                service
+            </h2>
+            <div class="wrapper">
+                <div class="wrapper">
+                    <div class="service-card">
+                        <a href="http://"  rel="noopener noreferrer"><img src="https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                            <h4 class="service-title"> Animal Care</h4>
+                        </a>
+    
+                    </div>
+                    
+                    <div class="service-card">
+                        <a href="http://"  rel="noopener noreferrer"><img src="https://images.unsplash.com/photo-1516386408840-d718a820a05c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="card-3" title="card-3">
+                            <h4 class="service-title"> Grooming </h4>
+                        </a>
+    
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- tabel harga -->
+        <section class="price">
+            <div class="wrapper">
+                <h2 class="section-title">Price of service</h2>
+                <table class="table-price">
+                    <tr>
+                        <th>Pet Care</th>
+                        <th>Grooming</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>$60/mounth</td>
+                        <td>$10</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <!-- form contak -->
+    </main>
+        
+    <!-- footer -->
+    <footer>
+
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
